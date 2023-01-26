@@ -1,0 +1,398 @@
+/** Contorno */
+* {
+    box-sizing: border-box;
+}
+
+/** color fondo */
+
+body{
+  background: #000000;
+  margin: 0;
+}
+
+
+
+
+
+/** Barra de navegacion estilos  --------------  */
+
+.nav-enlace{
+  display: inline-block;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px 30px;
+  margin: 3px 0 0 0 ;
+  text-decoration: none;
+  
+}
+
+.nav-enlace:hover{
+  transition: background 0.3s ease;
+  background:rgb(226, 226, 224);
+  cursor: pointer;
+}
+
+nav{
+  background:rgb(5, 5, 5) ;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.nav-boton{
+  display: inline-block;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 248, 248);
+  font-weight: bold;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  display: none;
+  
+  }
+
+
+/** fila imagen presentacion*/
+
+img{
+    width: 27%;
+    float: left;
+    padding: 5% 1%;
+    margin: 0 0 0 3%;
+  }
+#presentacion {
+    width: 70%;
+    float: left;
+    padding: 6% 5%;
+}
+
+/** fuwbte y color  presentacion */
+
+#presentacion{
+    text-align: left;
+    color: #ffeb4b;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+}
+
+#titulo{font-family: 'League Spartan', sans-serif;}
+
+
+/** descripcion estructura y formato */
+
+#descripcion{
+  background:#FAEBD7 ;
+  width: 86%;
+  float: left;
+  margin: 20px 7%;
+
+  color: black;
+  font-weight: bold;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#descripcion:hover{
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 0px 28px 10px rgba(192, 190, 190, 0.48);
+
+}
+
+/*             Contacto */ 
+
+#contacto a{ 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+   }
+
+#contacto {
+  background:#FFFACD ;
+  width: 70%;
+  float: left;
+  margin: 20px 15%;
+
+  color: black;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  
+}
+
+#contacto h2{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#contacto:hover{
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 0px 28px 10px rgba(192, 190, 190, 0.48)
+}
+
+#contacto a:hover{ 
+  transition: background 0.3s ease;
+  background: rgba(192, 190, 190, 0.473);}
+
+
+/** Historial academico         */ 
+
+#academico {
+  background:#FFD56F ;
+  width: 90%;
+  float: left;
+  margin: 20px 5%;
+
+  color: black;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  
+}
+
+#academico h2{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+#academico:hover{
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 0px 28px 10px rgba(192, 190, 190, 0.48);
+}
+
+.estudios{
+  background: #AD8E70;
+  margin: 1rem 2rem;
+  text-align: left;
+  color: #ffeb4b;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.estudios:hover{ 
+  transition: background-color 0.3s ease;
+  background-color: #000000a8;}
+
+.estudios h3{ text-align: center;}
+
+.estudios a {text-decoration: none;
+             color: #ffeb4b;}
+
+.estudios a:hover{
+   background: rgba(192, 190, 190, 0.373);
+   transition: background 0.3s ease;
+  }
+
+
+
+/**    Skills     */ 
+
+#skills {
+  background:#ADE792 ;
+  width: 70%;
+  float: left;
+  margin: 20px 15%;
+
+  display: inline-block;
+
+  color: black;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  
+}
+
+#skills h2{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#skills:hover{
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 0px 28px 10px rgba(192, 190, 190, 0.48)
+}
+
+
+/**                     work                  */
+
+
+#work {
+background:#F1F7B5 ;
+width: 90%;
+float: left;
+margin: 20px 5%;
+
+color: black;
+font-weight: bold;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 1.5rem;
+text-align: left;
+
+}
+
+#work h2{
+font-family: 'League Spartan', sans-serif;
+font-size: 1.5rem;
+text-align: center;
+font-weight: bold;
+}
+
+
+#work:hover{
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 0px 28px 10px rgba(192, 190, 190, 0.48)
+}
+
+#work div{
+  background: #9EA1D4;
+  margin: 1rem 2rem;
+  text-align: left;
+  color: #f3dd3b;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+}
+#work div{ background-color:#9EA1D4;}
+
+#work div:hover{
+   background-color: #797575a8;
+   transition: background-color 0.3s ease;
+  }
+
+
+/**           footer                    */
+
+#footer {
+  background:#0a0a0a ;
+  width: 100%;
+  
+  
+  color: rgb(255, 255, 255);
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  }
+
+#footer p {
+  margin: 0;
+}
+
+
+#footer a{ text-decoration: none; color: #fff;
+           padding: 0 0;
+           }
+              
+ 
+  
+  
+  #footer a:hover{
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 0px 28px 10px rgba(192, 190, 190, 0.48)
+  
+
+   }
+  
+  
+  
+
+/** -------------------------------------------------------------------------------------------------------- */
+/** ------------------------------------------Mediaquery --------------------------------------------------- */
+/** -------------------------------------------------------------------------------------------------------- */
+
+@media (max-width :700px) {
+
+  nav {
+    flex-direction: column;
+    
+  }
+ 
+  .nav-enlace{
+    padding: 10px 30px;
+    background: darkgray;
+    margin: 10px 0;
+  }
+
+  .nav-boton{
+    display: inline-block;
+  }
+
+  .nav-boton:hover{
+    transition: background 0.3s ease;
+    background:rgb(192, 192, 190);
+    cursor: pointer;
+  }
+  
+  .desaparece{
+    display: none;
+  }
+
+ /* texto presentacon */
+ #presentacion{
+  text-align: left;
+    color: #ffeb4b;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+  }
+
+  #titulo{font-family: 'League Spartan', sans-serif;}
+
+  #descripcion:hover{
+    transition: background 0.3s ease;
+    background:  rgba(231, 229, 229, 0.8);
+  }
+
+}
+
+/** Para mostrar skills en dos columnas en pantallas mayores a 700px */
+
+@media (width > 700px) {
+  
+
+  .col2{
+        PADDING-RIGHT: 0px;
+        PADDING-LEFT: 0px;
+        FLOAT: left;
+        PADDING-BOTTOM: 0px;
+        MARGIN: 15px 0px;
+        WIDTH: 100%;
+        PADDING-TOP: 0px;
+        LIST-STYLE-TYPE: none
+      }
+  
+      .col2 li{
+        PADDING-RIGHT: 2px;
+        DISPLAY: inline;
+        PADDING-LEFT: 60px;
+        FLOAT: left;
+        PADDING-BOTTOM: 2px;
+        WIDTH: 50%;
+        PADDING-TOP: 2px
+      }
+  }
