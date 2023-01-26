@@ -114,14 +114,14 @@ img{
 
 #contacto {
   background:#FFFACD ;
-  width: 80%;
+  width: 70%;
   float: left;
   margin: 20px 15%;
 
   color: black;
   font-weight: bold;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.rem;
   text-align: left;
   
 }
